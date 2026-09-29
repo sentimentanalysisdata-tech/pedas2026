@@ -1,5 +1,5 @@
 """
-PeDaS 2026 - Dashboard analitik DNS (tim Ampera USS)
+PeDaS 2026 - Dashboard analitik DNS
 
 Dashboard ini membaca tabel ringkasan di folder dashboard_data/ yang dihasilkan oleh analisis_dns.py
 dari SELURUH 11.712.623 pesan DNS (bukan sampel), sehingga angkanya identik dengan laporan.
@@ -58,7 +58,7 @@ def gaya(fig, h=360):
 
 # ------------------------------------------------------------------ header
 st.title("Beban tersembunyi di server otoritatif .id")
-st.caption(f"Tim Ampera USS · {fmt(S['records'])} pesan DNS (seluruh data, bukan sampel) · 19 Agustus 2026, "
+st.caption(f"{fmt(S['records'])} pesan DNS (seluruh data, bukan sampel) · 19 Agustus 2026, "
            "14.49.57–15.19.57 WIB · Pengguna hasil: tim operasi DNS registri .id")
 
 k = st.columns(5)
