@@ -180,14 +180,14 @@ with tabs[3]:
 
 # ------------------------------------------------------------------ rekomendasi
 with tabs[4]:
-    st.dataframe(pd.DataFrame([
+    st.table(pd.DataFrame([
         ["R1", "Periksa 14 delegasi (NS induk vs anak, jawaban otoritatif, DS) dan kirim bukti pola ke operator jaringan resolver A serta registrar terkait.",
          "NOC registri; layanan registrar", "Query per IP per domain untuk D1–D14 <10 per 30 menit; beban turun hingga ±35% (≈1.100 query/detik)."],
         ["R2", "Uji di lab ukuran NXDOMAIN/NODATA bertanda tangan untuk rollover algoritme zona .id dari RSA/SHA-256 (8) ke ECDSA P-256 (13) sesuai RFC 8624.",
          "Tim DNSSEC registri", "NXDOMAIN DO=1 <1.232 B; pemotongan respons negatif <5%; query TCP <1%."],
         ["R3", "Pantau % NXDOMAIN per menit (peringatan >15%) dan resolver dengan >1.000 NXDOMAIN/menit yang biasanya <10; tindak lanjut berupa investigasi, bukan blokir otomatis.",
          "NOC/SOC registri", "Lonjakan seperti 15.01–15.04 terdeteksi <2 menit; setiap peringatan tercatat hasilnya."],
-    ], columns=["Kode", "Tindakan", "Pelaksana", "Indikator keberhasilan"]), **LEBAR, hide_index=True)
+    ], columns=["Kode", "Tindakan", "Pelaksana", "Indikator keberhasilan"]).set_index("Kode"))
     st.caption("Prioritas: R1 (dampak terbesar, biaya rendah, tanpa mengubah konfigurasi zona) → R2 → R3.")
 
 # ------------------------------------------------------------------ definisi
