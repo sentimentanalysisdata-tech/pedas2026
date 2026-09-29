@@ -1,0 +1,11 @@
+rtype,do_,udp,tc,tcp_len
+Referral (delegasi),1,4067970,3243.0,707.0
+NODATA,1,389510,137658.0,1242.0
+NXDOMAIN,0,167797,0.0,102.0
+Jawaban (answer),0,12078,0.0,997.0
+Error lain,1,3,0.0,42.0
+Referral (delegasi),0,532592,0.0,116.0
+NXDOMAIN,1,380348,180896.0,1871.0
+Jawaban (answer),1,49224,0.0,1647.0
+NODATA,0,1251,1.0,89.0
+Error lain,0,29,0.0,37.0

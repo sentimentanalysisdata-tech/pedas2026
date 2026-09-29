@@ -1,0 +1,29 @@
+kode,kelompok,query,ip_resolver,query_per_ip
+D1 (.id),Jaringan resolver A,976505,165,5918.212121212121
+D1 (.id),Resolver lain,7131,944,7.554025423728813
+D2 (.id),Jaringan resolver A,339508,165,2057.6242424242423
+D2 (.id),Resolver lain,1958,654,2.99388379204893
+D3 (.co.id),Jaringan resolver A,274562,165,1664.0121212121212
+D3 (.co.id),Resolver lain,3554,685,5.1883211678832115
+D4 (.co.id),Jaringan resolver A,75616,165,458.27878787878785
+D4 (.co.id),Resolver lain,154,75,2.0533333333333332
+D5 (.co.id),Jaringan resolver A,73167,165,443.43636363636364
+D5 (.co.id),Resolver lain,260,65,4.0
+D6 (.co.id),Jaringan resolver A,68451,165,414.8545454545455
+D6 (.co.id),Resolver lain,213,78,2.730769230769231
+D7 (.co.id),Jaringan resolver A,63326,165,383.7939393939394
+D7 (.co.id),Resolver lain,237,65,3.646153846153846
+D8 (.id),Jaringan resolver A,48196,165,292.0969696969697
+D8 (.id),Resolver lain,188,112,1.6785714285714286
+D9 (.co.id),Jaringan resolver A,26813,165,162.5030303030303
+D9 (.co.id),Resolver lain,200,75,2.6666666666666665
+D10 (.net.id),Jaringan resolver A,23937,165,145.07272727272726
+D10 (.net.id),Resolver lain,8,8,1.0
+D11 (.id),Jaringan resolver A,16800,165,101.81818181818181
+D11 (.id),Resolver lain,9,8,1.125
+D12 (.web.id),Jaringan resolver A,13345,165,80.87878787878788
+D12 (.web.id),Resolver lain,3,3,1.0
+D13 (.my.id),Jaringan resolver A,11538,165,69.92727272727272
+D13 (.my.id),Resolver lain,6,6,1.0
+D14 (.my.id),Jaringan resolver A,10764,165,65.23636363636363
+D14 (.my.id),Resolver lain,22,16,1.375
